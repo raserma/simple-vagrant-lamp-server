@@ -29,7 +29,7 @@ password: root
 
 Technical Details
 -----------------
-* Cent0S 5.11 64 bit
+* Cent0S 6.4 64 bit
 * Apache/HTTPD
 * PHP 5.1.6
 * MySQL
