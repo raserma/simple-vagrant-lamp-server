@@ -25,14 +25,21 @@ Apache server is available at http://localhost:8080
 
 #### MySQL
 username: root
-password: root
+password: 1234
+
+username: guest
+password: guest
+
+#### MyPHPAdmin
+myPhpAdmin is available at http://localhost:8080/myPhpAdmin
 
 Technical Details
 -----------------
 * Cent0S 6.4 64 bit
 * Apache/HTTPD
 * PHP 5.1.6
-* MySQL
+* MySQL 5.1
+* myPhpAdmin tool
 
 
 
