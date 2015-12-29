@@ -30,8 +30,8 @@ password: 1234
 username: guest
 password: guest
 
-#### MyPHPAdmin
-myPhpAdmin is available at http://localhost:8080/myPhpAdmin
+#### phpMyAdmin
+phpMyAdmin is available at http://localhost:8080/phpMyAdmin
 
 Technical Details
 -----------------
@@ -39,7 +39,7 @@ Technical Details
 * Apache/HTTPD
 * PHP 5.1.6
 * MySQL 5.1
-* myPhpAdmin tool
+* phpMyAdmin tool
 
 
 
