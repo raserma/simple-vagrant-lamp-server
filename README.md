@@ -1,7 +1,9 @@
 Vagrant LAMP stack
 ==================
-It creates a simple LAMP (Linux, Apache, MySQL, PHP) stack by using Vagrant.
-Vagrant allows creation and managing of VMs to be quickly setup and easy to use. 
+It creates a simple LAMP (Linux, Apache, MySQL, PHP) stack on Vagrant by using a provisioning script.
+
+Vagrant is an open-source tool that creates and configures virtual development environments, in a quick and easy-to-use way.
+
 Requirements
 ------------
 * VirtualBox
