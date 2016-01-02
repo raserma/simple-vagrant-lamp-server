@@ -14,16 +14,16 @@ Usage
 -----
 
 ### Setup
-
+```bash
 	$ git clone git@github.com:raserma/simple-vagrant-lamp-server.git
 	$ cd simple-vagrant-lamp-server
 	$ vagrant up
 	$ vagrant ssh
-
+```
 ### Connection
 
 #### Apache
-Apache server is available at http://localhost:8080
+Apache server is available at [http://localhost:8080](http://localhost:8080)
 
 #### MySQL
 username: root
@@ -31,9 +31,12 @@ password: 1234
 
 username: guest
 password: guest
+#### PHP
+Make a change to `./src/init.php`, save it and reload the page. You will see the change inmediately.
+The `./src` directory is setup as the web document root. Any changes made under this folder will be instantly changed in your browser, after reloading the page [localhost:8080/init.php](http://localhost:8080/init.php).
 
 #### phpMyAdmin
-phpMyAdmin is available at http://localhost:8080/phpMyAdmin
+phpMyAdmin is available at [localhost:8080/phpMyAdmin](http://localhost:8080/phpMyAdmin)
 
 Technical Details
 -----------------
