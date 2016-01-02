@@ -33,6 +33,7 @@ username: guest
 password: guest
 #### PHP
 Make a change to `./src/init.php`, save it and reload the page. You will see the change inmediately.
+
 The `./src` directory is setup as the web document root. Any changes made under this folder will be instantly changed in your browser, after reloading the page [localhost:8080/init.php](http://localhost:8080/init.php).
 
 #### phpMyAdmin
